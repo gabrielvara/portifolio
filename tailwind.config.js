@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    screens: {
+      ssm:'320px',
+      sm:'640px',
+      md:'768px',
+      lg:'1024px',
+    },
+    extend: {
+      colors: {
+        defaultcolor: '#23283C',
+        defaultcolordarker: '#191C2A',
+        textcolor: '#919DD2',
+      },
+    },
   },
   plugins: [],
 }
