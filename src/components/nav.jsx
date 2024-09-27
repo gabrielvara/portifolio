@@ -47,7 +47,7 @@ function closeMenu(){
 
         <div className='md:hidden ssm:block'>
             {toggle ? (
-                <div className='flex justify-end mr-5 text-right '>
+                <div className='absolute end-0 mr-5 text-right '>
                 <ul className='text-textcolor font-medium bg-defaultcolordarker p-2 mb-5 rounded-2xl'>
                     <li className='p-1'>Projetos</li>
                     <hr />
