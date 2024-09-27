@@ -10,12 +10,17 @@ export default {
       sm:'640px',
       md:'768px',
       lg:'1024px',
+      xl:'1280px',
     },
     extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
       colors: {
         defaultcolor: '#23283C',
         defaultcolordarker: '#191C2A',
         textcolor: '#919DD2',
+        paragraphcolor: '#D1CFFD',
       },
     },
   },
