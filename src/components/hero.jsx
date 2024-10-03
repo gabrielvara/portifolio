@@ -33,8 +33,8 @@ const hero = () => {
             </p>
         </div>
         <div className="flex ssm:gap-4 sm:gap-8 md:gap-12 xl:gap-20 mx-48 mt-12 items-center">
-            <button className="ssm:hidden md:flex border-2 border-paragraphcolor p-3 rounded-md items-center flex gap-4 font-inter text-paragraphcolor text-lg">Baixar Currículo<FaDownload/></button>
-            <button className="ssm:flex md:hidden border-2 border-paragraphcolor p-1 rounded-md items-center flex gap-2 font-inter text-paragraphcolor text-sm">Baixar Currículo<FaDownload/></button>
+            <a className="ssm:hidden md:flex" href="/curriculo2024.pdf"><button className="ssm:hidden md:flex border-2 border-paragraphcolor p-3 rounded-md items-center flex gap-4 font-inter text-paragraphcolor text-lg">Baixar Currículo<FaDownload/></button></a>
+            <a className="ssm:hidden md:flex" href="/curriculo2024.pdf"><button className="ssm:flex md:hidden border-2 border-paragraphcolor p-1 rounded-md items-center flex gap-2 font-inter text-paragraphcolor text-sm">Baixar Currículo<FaDownload/></button></a>
             <BsGithub size={35} color="#D1CFFD"/>
             <FaLinkedin size={35} color="#D1CFFD"/>
         </div>
