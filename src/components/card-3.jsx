@@ -17,6 +17,7 @@ const cards = () => {
             <DiCss3 size={30} color="#D1CFFD"/>
             <DiJavascript size={30} color="#D1CFFD"/>
         </div>
+        <a href="https://github.com/gabrielvara/Sprint-Web-Development" target="_blank"><button className="border-2 border-paragraphcolor p-2 rounded-md items-center flex gap-4 font-inter text-paragraphcolor text-lg">Repositório</button></a>
     </div>
   )
 }
