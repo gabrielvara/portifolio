@@ -26,7 +26,6 @@ function closeMenu(){
             <div className='flex items-center gap-x-5'>
                 <div className="ssm:hidden md:block flex items-center space-x-10 mr-20 text-textcolor font-medium">
                     <a href="#">Projetos</a>
-                    <a href="#">Habilidades</a>
                     <a href="#">Contato</a>
                 </div>
                 <div className='md:hidden ssm:block'>
@@ -50,8 +49,6 @@ function closeMenu(){
                 <div className='absolute end-0 mr-5 text-right '>
                 <ul className='text-textcolor font-medium bg-defaultcolordarker p-2 mb-5 rounded-2xl'>
                     <li className='p-1'>Projetos</li>
-                    <hr />
-                    <li className='p-1'>Habilidade</li>
                     <hr />
                     <li className='p-1'>Contato</li>
                 </ul>
