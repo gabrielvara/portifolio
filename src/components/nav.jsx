@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import Logo from '../assets/logo.svg'
 import { TiAdjustContrast } from 'react-icons/ti'
@@ -18,15 +19,15 @@ function closeMenu(){
     <>
         <div className="flex items-center justify-between p-5 lg:flex-row">
             <div className='ssm:block md:hidden'>
-                <img className='h-8' src={Logo} alt="Logo 'GBL'" />
+                <NavLink to='/'><img className='h-8' src={Logo} alt="Logo 'GBL'" /></NavLink>
             </div>
             <div className='ssm:hidden md:block'>
-                <img className='h-10 ml-20' src={Logo} alt="Logo 'GBL'" />
+                <NavLink to='/'><img className='h-10 ml-20' src={Logo} alt="Logo 'GBL'" /></NavLink>
             </div>
             <div className='flex items-center gap-x-5'>
                 <div className="ssm:hidden md:block flex items-center space-x-10 mr-20 text-textcolor font-medium">
-                    <a href="#">Projetos</a>
-                    <a href="#">Contato</a>
+                    <NavLink to='/projetos'>Projetos</NavLink>
+                    <NavLink to='/contato'>Contato</NavLink>
                 </div>
                 <div className='md:hidden ssm:block'>
                     {toggle ? (
@@ -48,9 +49,9 @@ function closeMenu(){
             {toggle ? (
                 <div className='absolute end-0 mr-5 text-right '>
                 <ul className='text-textcolor font-medium bg-defaultcolordarker p-2 mb-5 rounded-2xl'>
-                    <li className='p-1'>Projetos</li>
+                    <li className='p-1'><NavLink to='/projetos'>Projetos</NavLink></li>
                     <hr />
-                    <li className='p-1'>Contato</li>
+                    <li className='p-1'><NavLink to='/contato'>Contato</NavLink></li>
                 </ul>
             </div>
             ):(

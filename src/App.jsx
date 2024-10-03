@@ -1,11 +1,14 @@
-import Main from "./components/main"
-
+import { Outlet } from 'react-router-dom'
+import Nav from './components/nav'
+import Footer from './components/footer'
 function App() {
 
   return (
-    <h1>
-      <Main/>
-    </h1>
+    <div className="bg-defaultcolor">
+        <Nav/>
+        <Outlet/>
+        <Footer/>
+    </div>
   )
 }
 

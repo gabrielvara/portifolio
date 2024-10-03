@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import { FaAddressBook, FaGithubSquare, FaLinkedin } from "react-icons/fa"
 
 const footer = () => {
@@ -6,13 +7,13 @@ const footer = () => {
       <div className="flex flex-col container mx-auto text-center gap-10">
         <div className="flex justify-center space-x-8 mb-4 gap-8">
           <a href="#" className="hover:text-textcolor transition duration-300">
-            Home
+            <NavLink to='/'>Home</NavLink>
           </a>
           <a href="#" className="hover:text-textcolor transition duration-300">
-            Projeto
+            <NavLink to='/projetos'>Pojetos</NavLink>
           </a>
           <a href="#" className="hover:text-textcolor transition duration-300">
-            Contato
+            <NavLink to='/contao'>Contato</NavLink>
           </a>
         </div>
         <div className="flex justify-center gap-6">
