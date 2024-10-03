@@ -49,9 +49,9 @@ function closeMenu(){
             {toggle ? (
                 <div className='absolute end-0 mr-5 text-right '>
                 <ul className='text-textcolor font-medium bg-defaultcolordarker p-2 mb-5 rounded-2xl'>
-                    <li className='p-1'><NavLink to='/projetos'>Projetos</NavLink></li>
+                    <li className='p-1'><NavLink to='/projetos' onClick={closeMenu}>Projetos</NavLink></li>
                     <hr />
-                    <li className='p-1'><NavLink to='/contato'>Contato</NavLink></li>
+                    <li className='p-1'><NavLink to='/contato' onClick={closeMenu}>Contato</NavLink></li>
                 </ul>
             </div>
             ):(
