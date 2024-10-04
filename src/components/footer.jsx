@@ -13,7 +13,7 @@ const footer = () => {
             <NavLink to='/projetos'>Pojetos</NavLink>
           </a>
           <a href="#" className="hover:text-textcolor transition duration-300">
-            <NavLink to='/contao'>Contato</NavLink>
+            <NavLink to='/contato'>Contato</NavLink>
           </a>
         </div>
         <div className="flex justify-center gap-6">
